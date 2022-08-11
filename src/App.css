@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-bg-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.first-container {
+  background-color: #131213;
+  width: 35%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.second-container {
+  background-color: #000000;
+  width: 65%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.first-cont-heading {
+  color: #f3aa4e;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+.label-text {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+.input-container {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+}
+
+.add-btn {
+  background-color: #f3aa4e;
+  color: white;
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  border-radius: 9px;
+}
+.second-title {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.second-ul-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.no-tasks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+.no-tasks-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.tasks-ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.tasks-list-element {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: #131213;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tasks-name {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.task-category {
+  background-color: #f3aa4e;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-self: center;
+}
